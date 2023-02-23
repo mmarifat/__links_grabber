@@ -1,4 +1,4 @@
-# Dhaka Stock Exchange Scrapper (puppeteer)
+# Any Website Links Scrapper (puppeteer)
 
 ## Install the dependencies
 ```bash
@@ -8,23 +8,21 @@ npm i -g @types/ts-node-dev -D
 
 #2
 npm install
-or
-yarn install (recommended)
 
 ```
 
 ### Start
 ```bash
-ts-node-dev --transpile-only --no-notify --exit-child src/App.ts
+npm run start
 ```
 
 
 ### Build 
 ```bash
-tsc --project tsconfig.compile.json
+npm run build
 ```
 
 ### Run 
 ```bash
-Run by giving parameter of month(3 letters) and year respectively (i.e. localhost:8080/aug/2020)
+Run by giving parameter of any website (i.e. localhost:8080/website?noQuery=true&q=pahe.li)
 ```

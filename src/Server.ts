@@ -1,4 +1,4 @@
-import {GlobalAcceptMimesMiddleware, ServerLoader, ServerSettings} from "@tsed/common";
+import { GlobalAcceptMimesMiddleware, ServerLoader, ServerSettings } from "@tsed/common";
 import * as bodyParser from "body-parser";
 import * as compress from "compression";
 import * as cookieParser from "cookie-parser";
@@ -12,7 +12,6 @@ const rootDir = __dirname;
     logger: {
         debug: true,
         logRequest: false,
-        requestFields: ["reqId", "method", "url", "headers", "query", "params", "duration"]
     },
     mount: {
         "/": "${rootDir}/Controllers/**/*.ts"
