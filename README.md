@@ -8,6 +8,12 @@ Any Website Links Scrapper (puppeteer)
 $ pnpm install
 ```
 
+## Environment
+
+```bash
+$ serve a .env file and configure using env.example
+```
+
 ## Running the app
 
 ```bash
